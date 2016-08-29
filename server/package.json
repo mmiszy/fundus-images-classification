@@ -1,0 +1,25 @@
+{
+  "name": "medical_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "babel": "^6.5.2",
+    "babel-preset-es2015-node4": "^2.1.0",
+    "babel-register": "^6.7.2",
+    "bluebird": "^3.3.5",
+    "boom": "^3.1.2",
+    "hapi": "^13.3.0",
+    "hapi-swagger": "^5.0.1",
+    "inert": "^3.2.0",
+    "joi": "^8.0.5",
+    "lodash": "^4.11.1",
+    "uuid": "^2.0.2",
+    "vision": "^4.1.0"
+  }
+}

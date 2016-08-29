@@ -1,0 +1,21 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+  Michal Miszczyszyn -- Project Lead -- https://typeofweb.com
+
+# THANKS
+
+  Thanks for all the fish
+
+# TECHNOLOGY COLOPHON
+
+  HTML5, CSS3
+  TypeScript
+  ES2015
+  JSPM
+  SystemJS
+  NodeJS
+  NPM
+  Gulp

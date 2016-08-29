@@ -1,0 +1,94 @@
+//
+// Layout
+//
+//
+img, canvas {
+    -webkit-user-select: none; /* webkit (safari, chrome) browsers */
+    -moz-user-select: none; /* mozilla browsers */
+    -khtml-user-select: none; /* webkit (konqueror) browsers */
+    -ms-user-select: none; /* IE10+ */
+}
+
+.button {
+    clear: both;
+    font-size: 2rem !important;
+    margin: 10px !important;
+    border: 1px solid #2199e8;
+    color: #2199e8;
+    display: inline-block;
+    text-align: center;
+    line-height: 1;
+    cursor: pointer;
+    -webkit-appearance: none;
+    transition: background-color 0.25s ease-out, color 0.25s ease-out;
+    vertical-align: middle;
+    border-radius: 0;
+    padding: 0.85em 1em;
+
+    &:hover {
+        border-color: #0c4d78;
+        color: #0c4d78;
+        background-color: transparent;
+    }
+}
+
+.fundus-container {
+    position: relative;
+
+    img, canvas {
+        margin: 0;
+        display: block;
+    }
+
+    #preview {
+        background: transparent;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+.vessels-container, .fundus-container {
+    display: block;
+    float: left;
+    margin: 10px;
+}
+
+.vessels-brush-color {
+    height: 25px;
+    padding: 3px;
+    position: absolute;
+    margin-top: -30px;
+    border: 2px solid lightgray;
+    color: white;
+    font-weight: bold;
+
+    &.color-red {
+        background: rgba(255, 0, 0, 255);
+    }
+
+    &.color-blue {
+        background: rgba(0, 150, 255, 255);
+    }
+}
+
+#notification {
+    &:empty {
+        display: none;
+    }
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.8);
+    bottom: 0;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 6rem;
+}
+
+input[type="range"] {
+    width: 40%;
+}
